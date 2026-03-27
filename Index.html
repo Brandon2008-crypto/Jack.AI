@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jack IA</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>🧠 Jack.IA</h1>
+
+<div id="login">
+<input id="user" placeholder="Nom">
+<input id="pass" type="password" placeholder="Mot de passe">
+<button onclick="login()">Connexion</button>
+<button onclick="register()">Créer compte</button>
+</div>
+
+<div id="app" style="display:none">
+
+<div id="chat"></div>
+
+<input id="msg" placeholder="Message...">
+<button onclick="send()">Envoyer</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
